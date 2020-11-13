@@ -1,0 +1,44 @@
+body {
+  background-color: antiquewhite;
+}
+
+button {
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 20px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#button:hover {
+  opacity: 0.5;
+}
+
+.img_line {
+  width: 300px;
+  height: 300px;
+}
+
+.show_img_line {
+  list-style-type: none;
+}
+
+.show_img {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  -ms-grid-rows: (1fr)[5];
+      grid-template-rows: repeat(5, 1fr);
+}
+
+li {
+  color: black;
+  font-size: 15px;
+}
+/*# sourceMappingURL=style.css.map */
